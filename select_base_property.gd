@@ -12,6 +12,8 @@ func can_handle(object:Object):
 		return false
 	if not "base_script" in object:
 		return false
+	if not "property" in object:
+		return false
 	return true
 
 func parse_end():
