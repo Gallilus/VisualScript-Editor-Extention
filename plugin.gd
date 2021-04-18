@@ -1,8 +1,8 @@
 tool
 extends EditorPlugin
 
-var select_base_property := preload("res://addons/vs_editor_extention/select_base_property.gd").new()
-var stringify_property := preload("res://addons/vs_editor_extention/stringify_property.gd").new()
+var select_base_property := preload("res://addons/VisualScript-Editor-Extention/select_base_property.gd").new()
+var stringify_property := preload("res://addons/VisualScript-Editor-Extention/stringify_property.gd").new()
 
 func _enter_tree():
 	add_inspector_plugin(select_base_property)
