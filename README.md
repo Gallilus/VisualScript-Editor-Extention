@@ -1,7 +1,6 @@
 # VisualScript-Editor-Extention
-Godot plugin for a better Visual script experience
 
-A series of additions to the VisualScript Editor to provide less friction when ariving from GDScript
+**A series of additions to the VisualScript Editor to provide less friction when ariving from GDScript**
 
 Extendend select propertys
   By default not all property's are available for selection.
